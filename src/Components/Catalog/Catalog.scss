@@ -1,0 +1,32 @@
+.catalog{
+  width: 25%;
+  padding: 30px;
+  background: #fff;
+}
+.catalog__title{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.catalog__group{
+  margin-bottom: 20px;
+}
+.catalog__group-name{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.catalog__link{
+  text-decoration: none;
+  display: block;
+  color: #3a3a3a;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.catalog__link--active{
+  color: #d2414b
+}
